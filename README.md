@@ -1,6 +1,6 @@
 # PlayTech_JSDev
 
-Program that displays the sequence number, input word and result (true or false) of a palindrome in a table. User has the option to add their own palindromes into the table. If the word is not a palindrome, the according result cell will be colored green and in case of a palindrome, the cell will be colored red.
+Program that displays the sequence number, input word and result (true or false) of a palindrome in a table. User has the option to add their own palindromes into the table. If the word is not a palindrome, the according result cell will be colored green and in case of a palindrome, the cell will be colored red. Website looks proper and is functional on mobile.
 
 Four rows of palindrome data has previously been added to the table but the user has the option to add their own data into the table by using the input field and clicking submit.
 
@@ -17,4 +17,3 @@ Checks if a word is a palindrome. Returns true if it is a palindrome and returns
   
 function changeColors():  
 Loops through the table cells and checks if the text inside of a cell is "false" or "true" and accordingly colors the background color of a cell either red or green.
-
