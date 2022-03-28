@@ -6,15 +6,15 @@ container.appendChild(title);
 
 let sequencenr = 0;
 let palindromeData = [
-    { sequence: sequencenr+=1, input: 'anna', result: isPalindrome('anna').toString()},
-    { sequence: sequencenr+=1, input: 'Anna', result: isPalindrome('Anna').toString()},
-    { sequence: sequencenr+=1, input: 'anna', result: isPalindrome('anna').toString()},
-    { sequence: sequencenr+=1, input: 'YellowSubmarine', result: isPalindrome('YellowSubmarine').toString()}
+    { sequence: sequencenr+=1, input: 'anna', result: isPalindrome('anna') },
+    { sequence: sequencenr+=1, input: 'Anna', result: isPalindrome('Anna') },
+    { sequence: sequencenr+=1, input: 'anna', result: isPalindrome('anna') },
+    { sequence: sequencenr+=1, input: 'YellowSubmarine', result: isPalindrome('YellowSubmarine') }
 ];
 
 function submittext(event) {
     let palindromeName = document.getElementById("inputtext").value;
-    palindromeData.push({ sequence: sequencenr+=1, input: palindromeName, result: isPalindrome(palindromeName).toString() });
+    palindromeData.push({ sequence: sequencenr+=1, input: palindromeName, result: isPalindrome(palindromeName) });
     event.preventDefault(); // to prevent the submit button from refreshing the page
     dataToTable(palindromeData);
     changeColors();
