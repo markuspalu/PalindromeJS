@@ -1,0 +1,49 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    padding: 10px;
+    font-size: x-large;
+    font-family: monospace, sans-serif;
+    letter-spacing: 2px;
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+table {
+    font-family: monospace, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: gainsboro;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+#inputcontainer {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputtext, #inputsubmit {
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 1px;
+}
+
