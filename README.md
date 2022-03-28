@@ -13,7 +13,7 @@ function dataToTable():
 Loops through the data of palindromeData and adds them into a table.  
   
 function isPalindrome():  
-Checks if a word is a palindrome. Returns true if it is a palindrome and returns false if it's not a palindrome.  
+Checks if a word is a palindrome. Returns true if it is a palindrome and returns false if it's not a palindrome. Function ignores uppercase letters in a word but the toLowerCase() functions inside of the isPalindrome() function could be omitted if the case of the letters in the word matter.
   
 function changeColors():  
 Loops through the table cells and checks if the text inside of a cell is "false" or "true" and accordingly colors the background color of a cell either red or green.
