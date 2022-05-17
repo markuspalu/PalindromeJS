@@ -1,4 +1,4 @@
-# PlayTech_JSDev
+# PalindromeJS
 
 Program that displays the sequence number, input word and result (true or false) of a palindrome in a table. User has the option to add their own palindromes into the table. If the word is a palindrome, the according result cell will be colored green and if not, the cell will be colored red. Website looks proper and is functional on mobile.
 
